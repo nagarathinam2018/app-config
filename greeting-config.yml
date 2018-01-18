@@ -14,3 +14,4 @@ greeting:
   displayFortune: true
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
+SPRING_PROFILES_ACTIVE=qa  ./mvnw clean spring-boot:run
