@@ -14,3 +14,10 @@ greeting:
   displayFortune: true
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
