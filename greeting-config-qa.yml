@@ -1,2 +1,16 @@
+security:
+  basic:
+    enabled: false
 
-teServiceURL: http://quote-service-qa.cfapps.io/quote
+management:
+  security:
+    enabled: false
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+
+greeting:
+  displayFortune: true
+
+quoteServiceURL:: http://quote-service-qa.cfapps.io/quote
